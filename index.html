@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrainLab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <!-- Header -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-dot"></div>
+        <div>
+          <h1>TrainLab</h1>
+          <p class="brand-sub">Gym Web App</p>
+        </div>
+      </div>
+      <button id="premiumBtn" class="btn btn-ghost">Premium</button>
+    </header>
+
+    <!-- Main Content -->
+    <main id="mainContent" class="main-content"></main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav" id="bottomNav">
+      <button class="nav-item active" data-view="inicio">Inicio</button>
+      <button class="nav-item" data-view="rutina">Rutina</button>
+      <button class="nav-item" data-view="progreso">Progreso</button>
+      <button class="nav-item" data-view="ejercicios">Ejercicios</button>
+      <button class="nav-item" data-view="perfil">Perfil</button>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
